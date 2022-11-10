@@ -1,0 +1,21 @@
+#content{
+    color: black;
+}
+.drktheme{
+    background-color: rgb(112, 112, 112);
+}
+.titledrk{
+    color: rgb(241, 0, 0);
+}
+.textdrk{
+    color:white;
+}
+.buttonchange{
+    background-color: darkgray;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 8px;
+}
+.buttonchange:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: rgb(6, 226, 17);
+}
