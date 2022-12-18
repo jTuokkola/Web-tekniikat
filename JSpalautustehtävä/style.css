@@ -1,0 +1,12 @@
+p{
+    border: 2px solid grey;
+    border-radius: 6px;
+    margin: 2px;
+    width: 400px;
+}
+.importantnote{
+    border:3px solid red;
+    margin-left: 4px;
+    margin-bottom: 3px;
+    background-color: rgb(170, 170, 170);
+}
