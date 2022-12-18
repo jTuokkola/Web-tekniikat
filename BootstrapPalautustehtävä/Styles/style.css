@@ -22,6 +22,9 @@
     color: rgb(31, 184, 77);
     border-color: rgb(31, 184, 77);
 }
+.nav-item a {
+    color: aliceblue;
+}
 .textbox{
     grid-column: 1/4;
     grid-row: 2/4;
