@@ -1,93 +1,111 @@
-#content{
-    display: grid;
+nav + #content {
+  display: grid;
 }
-.header{
-    grid-column: 1/4;
-    grid-row:1/2;
-    background-color: rgb(31, 184, 77);
-    border: 3px solid rgb(0, 0, 0);
-    color: aliceblue;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding-left: 10px;
-    font-size: 3em;
+nav + #content .header {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  background-color: rgb(31, 184, 77);
+  border: 3px solid rgb(0, 0, 0);
+  color: aliceblue;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-left: 10px;
+  font-size: 3em;
 }
-.navadd{
-    background-color: black;
+
+.navadd {
+  background-color: black;
 }
-.navbar a{
-    color: aliceblue;
+
+.navbar a {
+  color: aliceblue;
 }
-.navbar button{
-    color: rgb(31, 184, 77);
-    border-color: rgb(31, 184, 77);
+.navbar button {
+  color: rgb(31, 184, 77);
+  border-color: rgb(31, 184, 77);
 }
+
 .nav-item a {
-    color: aliceblue;
+  color: aliceblue;
 }
-.textbox{
-    grid-column: 1/4;
-    grid-row: 2/4;
-    padding: 10px;
-    background-color: rgb(212, 209, 209);
-    color: rgb(0, 0, 0);
-    margin: 10px;
-    border-radius: 10px;
+
+.textbox {
+  grid-column: 1/4;
+  grid-row: 2/4;
+  padding: 10px;
+  background-color: rgb(212, 209, 209);
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  border-radius: 10px;
 }
-.accordion{
-    grid-row: 2/4;
+
+.accordion {
+  grid-row: 2/4;
 }
-.imgdiv{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 2px;
+
+.imgdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 2px;
 }
-.imageContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:rgb(31, 184, 77);
-    width: 100%;
-    padding: 10px;
-    border: 3px solid rgb(158, 158, 158);
-    border-radius: 20px;
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(31, 184, 77);
+  width: 100%;
+  padding: 10px;
+  border: 3px solid rgb(212, 209, 209);
+  border-radius: 20px;
 }
-.TeslaImage{
-    margin: 20px;
-    margin-top: 0;
-    margin-bottom: 0;
-    width: 300px;
-    height: 400px;
+
+.TeslaImage {
+  margin: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 300px;
+  height: 400px;
 }
-.buttoncontainer{
-    display: grid;
+
+.buttoncontainer {
+  display: grid;
 }
-.buttoncontainer p{
-    grid-row:1/2;
-    width: 30%;
-    margin-left: 35%;
-    margin-right: 35%;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.5em;
-    background-color:rgb(31, 184, 77);
-    margin-top: 20px;
-    border-radius: 20px;
-    color: aliceblue;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
+.buttoncontainer p {
+  grid-row: 1/2;
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: rgb(31, 184, 77);
+  margin-top: 20px;
+  border-radius: 20px;
+  color: aliceblue;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
 }
-#movebutton{
-    grid-row: 2/3;
-    width: 30%;
-    margin-left: 35%;
-    margin-right: 35%;
+
+#movebutton {
+  grid-row: 2/3;
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
 }
-@media screen and (max-width:716px){
-.TeslaImage{
+#movebutton :hover {
+  margin-left: 35.333%;
+}
+
+.accordion-collapse > div {
+  background-color: rgb(212, 209, 209);
+}
+
+@media screen and (max-width: 716px) {
+  .TeslaImage {
     max-width: 300px;
     max-height: 400px;
     min-width: 100px;
@@ -95,10 +113,12 @@
     width: auto;
     height: auto;
     border-radius: 20px;
+  }
 }
+@media screen and (max-width: 600px) {
+  .TeslaImage {
+    margin: auto;
+  }
 }
-@media screen and (max-width:600px){
-    .TeslaImage{
-        margin: auto;
-    }
-}
+
+/*# sourceMappingURL=style.css.map */
